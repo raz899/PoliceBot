@@ -20,6 +20,6 @@ jobs:
         token: ${{ secrets.TELEGRAM_TOKEN }}
         message: |
           The ${{ github.event_name }} event triggered final step.
-          echo This event is a pull request that had an assignee removed. 11
+          echo This event is a pull request that had an assignee removed. 22
 
 
