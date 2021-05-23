@@ -2,14 +2,8 @@ name: telegram message
 
 on:
   schedule:
-<<<<<<< HEAD
     - cron:  '*/5 * * * *'
 
-=======
-    # * is a special character in YAML so you have to quote this string
-    - cron:  '30 5,17 * * *'
-    
->>>>>>> 6c7dfb2a6aa6a7422e814ecb8b4c0df19b4901cb
 jobs:
   build:
     name: Build
