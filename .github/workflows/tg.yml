@@ -1,7 +1,9 @@
 name: telegram message
+
 on:
   schedule:
     - cron:  '*/5 * * * *'
+
 jobs:
   build:
     name: Build
